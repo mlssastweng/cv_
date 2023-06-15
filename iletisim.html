@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+           <img src="img/programmer.png" alt="">
+           <p>Name Surname</p>
+           <a href="index.html"><li>ANASAYFA</li></a>
+           <a href="egitim_bilgileri.html"><li>EĞİTİM BİLGİLERİ</li></a>
+           <a href="hobiler.html"><li>HOBİLER</li></a>
+           <a href="iletisim.html"><li>İLETİŞİM</li></a>
+        </div>
+        <div class="icerik_1">
+            <div class="hakkimda">
+                <h1>İletişim</h1>
+            </div>
+            <div class="bilgiler">
+                <div class="bilgiler-1">
+                    <ul>
+                        <li>Ad : Name</li>
+                        <li>Soyad : Surname</li>
+                        <li>Öğrenci No : Student Number</li>
+                        <a href="https://www.atauni.edu.tr/"><li>Üniversite : University </li></a>
+                        <a href="https://birimler.atauni.edu.tr/muhendislik-fakultesi/"><li>Fakülte : Faculty</li></a>
+                        <a href="https://birimler.atauni.edu.tr/yazilim-muhendisligi/"><li>Bölüm : Department</li></a>
+                    </ul>
+                </div>
+                <div class="iletisim-form">
+                    <form method="post" action="#">
+                        <div class="item">
+                            <label>Adı Soyadı</label>
+                            <input type="text" name="adsoyad" class="input"/>
+                        </div>
+                        <div class="item">
+                            <label>Cinsiyeti</label>
+                            <div>
+                                <input type="radio" name="cinsiyet" value="erkek"/>
+                                <label>Erkek</label>
+                                <input type="radio" name="cinsiyet" value="kadin"/>
+                                <label>Kadın</label>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <label>Doğum Tarihi</label>
+                            <input type="date" class="input" name="dogumtarihi" id="dogumtarihi">
+                        </div>
+                        <div class="item">
+                            <label>E-Posta</label>
+                            <input type="email" class="input" name="e-posta"/>
+                        </div>
+                        <div class="item">
+                            <label>Bölümü</label>
+                        <select>
+                            <option value="makine">Yazılım Mühendisliği</option>
+							<option value="bilgisayar">Bilgisayar Mühendisliği</option>
+							<option value="elektronik">Elektronik Mühendisliği</option>
+							<option value="endustri">Endüstri Mühendisliği</option>
+							<option value="makine">Makine Mühendisliği</option>
+						</select>
+                        </div>
+                        <div class="item">
+                            <label>Sevdiği Renk</label>
+                            <input type="color" class="input" name="sevdigim-renk"/>
+                        </div>
+                        <div class="item">
+                            <label>Mesajınız</label>
+                            <textarea class="input" cols="18" rows="5" name="mesaj"></textarea>
+                        </div>
+                        <div class="item">
+                            <input class="btn" type="submit" name="gonder" value="Gönder" >
+                        </div>
+                    </form>
+               
+                </div>
+            </div>
+        </div>
+</body>
+</html>

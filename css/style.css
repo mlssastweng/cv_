@@ -1,0 +1,165 @@
+@font-face {
+    font-family:'Sacramento';
+    src:url(..\font\Sacramento-Regular.ttf);
+}
+body{
+    margin: 0px;
+    background-color: aliceblue;    
+    text-align: center;
+
+}
+.container{
+    display: flex;
+}
+.menu{
+   position: fixed;
+   float: left;
+    width: 200px;
+    height: 85%;
+    margin: 50px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;    
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+}
+.menu p{
+    color:rgb(75, 75, 75);
+    font-size: large;
+}
+.menu img{
+    width: 150px;
+    height: 150px;   
+}
+.menu a{
+    text-decoration: none;
+    color: #66BFBF;
+}
+.menu a:hover{
+    text-decoration: none;
+    color: #11999E;
+    font-size: 15px;
+}
+.menu li{
+    list-style: none;   
+    margin-top: 20px;
+}
+.icerik_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;    
+}
+.icerik_1 .hakkimda{
+    color: #66BFBF;
+    margin-top: 80px;
+    margin-left: 400px;    
+}
+.icerik_1 .hakkimda h1{    
+    position: relative;
+    top: 0;
+    background-color: aliceblue;
+    height: 30px;
+}
+.icerik_1  .bilgiler{
+    color:rgb(75, 75, 75);
+    margin-top: 30px;
+    margin-left: 400px;
+    margin-right: 40px;
+    padding: 30px;
+    font-size: 20px;
+    
+}
+.icerik_1  .bilgiler p{
+    text-align: left;
+    text-indent: 2em; 
+}
+    
+
+.icerik_1  .bilgiler li{
+    list-style: none;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Sacramento';
+    font-size: 25px;
+    color:rgb(75, 75, 75);
+}
+.bilgiler-1 ul {
+    list-style: none;
+    padding: 0;
+}
+.icerik_1  .bilgiler img{
+    width: 100px;
+    height: 100px;  
+    margin-left: 250px;
+}
+.icerik_1  .bilgiler .iletisim-form{
+   margin-top: 40px;
+   padding: 30px;
+   text-align: left;
+}
+.icerik_1  .bilgiler .iletisim-form .item{
+       padding: 10px;  
+ }
+
+.btn{
+    text-decoration: none;
+    border-style: inset;
+    width: 79px;
+    border-color: #11999E;
+    color:rgb(75, 75, 75);
+    padding: 12px;
+    border-radius:4px;
+    background-color: #66BFBF;
+    font-size: 16px;
+    margin:auto;
+}
+.btn:hover{
+    text-decoration: none;
+    border-style: inset;
+    width: 80px;
+    border-color: #118286;
+    color:rgb(75, 75, 75);
+    padding: 13px;
+    border-radius:5px;
+    background-color: #66BFBF;
+    font-size: 16px;
+    margin:auto;
+}
+.icerik_1 .bilgiler-1 li{
+    font-size: 15px;
+    text-align: left;
+    margin-left: 15px;
+}
+.icerik_1 .bilgiler-1 a{
+    text-decoration: none;
+}
+.icerik_1 .bilgiler-1 a:hover li{
+    font-size:16px;
+
+}
+.icerik_1 .bilgiler-2 {
+    padding-top: 50px;
+}
+.icerik_1 .bilgiler-2 caption{
+    font-size: large
+}
+.icerik_1 .bilgiler-2 table{
+    overflow:hidden ;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 40px;
+    z-index: 999;
+}
+.icerik_1 .bilgiler-2 tr{
+    padding: 20px;
+}
+.icerik_1 .bilgiler-2 th{
+    padding: 20px;
+}
+.icerik_1 .bilgiler-2 td{
+    padding: 20px;
+}
